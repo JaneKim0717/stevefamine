@@ -6,6 +6,8 @@ import Projects from './components/pages/Projects';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Blog from './components/pages/Blog'
+import Footer from './components/pages/Footer';
+import Terms from './components/pages/Terms';
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
         <Route path='/blog' exact component={Blog} />
         <Route path='/about' exact component={About} />
         <Route path='/contact' exact component={Contact} />
+        <Route path='/terms' exact component={Terms} />
       </Switch>
+      <Footer />
 
     </Router>
     </>

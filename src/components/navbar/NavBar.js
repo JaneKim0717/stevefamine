@@ -7,8 +7,8 @@ import { NavLink as Link } from 'react-router-dom';
 
 
 const LogoImg = styled.img`
-  width: 100px;
-  height: 80px;
+  width: 275px;
+  height: 90px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -54,7 +54,7 @@ const Right = styled.div`
 `;
 
 const MenuItem = styled.div`
-  font-size: 15px;
+  font-size: 18px;
   cursor: pointer;
   margin-left: 25px;
   color: white;
@@ -62,7 +62,7 @@ const MenuItem = styled.div`
 `;
 
 const SocialItem = styled.div`
-  font-size: 20px;
+  font-size: 25px;
   cursor: pointer;
   margin-right: 25px;
   color: white;
@@ -91,7 +91,7 @@ const NavBar = () => {
           <SocialItem><a href='https://mobile.twitter.com/stevefamine'><FiTwitter /></a></SocialItem>
         </Left>
         <Center>
-          <Logo><LogoImg src={require('../assets/SFlogo_white.png')} alt='logo' /></Logo>
+          <Logo><NavLink to='/'><LogoImg src={require('../assets/stevefamine-white-logo.png')} alt='logo' /></NavLink></Logo>
         </Center>
         <Right>
           <NavLink to='/' activeStyle> <MenuItem>HOME</MenuItem> </NavLink>
