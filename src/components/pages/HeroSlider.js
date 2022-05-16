@@ -12,6 +12,9 @@ const Container = styled.div`
   display: flex;
   position: relative;
   overflow: hidden;
+  border-style: solid;
+  border-width: medium;
+  border-color: #FFFFFF;
   ${mobile({ display: "none" })}
 `;
 

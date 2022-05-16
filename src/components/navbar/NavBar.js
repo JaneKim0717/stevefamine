@@ -17,9 +17,6 @@ const LogoImg = styled.img`
 const Container = styled.div`
   height: 110px;
   background-color: #262626;
-  border-style: solid;
-  border-width: thin;
-  border-color: #FFFFFF;
   ${mobile({ height: "50px" })}
 `;
 

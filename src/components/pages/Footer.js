@@ -9,9 +9,6 @@ import { mobile } from '../responsive'
 const Container = styled.div`
   background-color: #262626;
   display: flex;
-  border-style: solid;
-  border-width: thin;
-  border-color: #FFFFFF;
   ${mobile({ flexDirection: "column" })}
 `;
 
@@ -114,7 +111,7 @@ const Footer = () => {
           Please contact me for any inquiries!   
         </Desc>
         <Desc>
-          © Designed & Developed by JK
+          © developed by JK. 
         </Desc>
       </Left>
       <Center>
