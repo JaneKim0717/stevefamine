@@ -7,16 +7,19 @@ import { NavLink as Link } from 'react-router-dom';
 
 
 const LogoImg = styled.img`
-  width: 275px;
-  height: 90px;
+  width: 320px;
+  height: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 `; 
 
 const Container = styled.div`
-  height: 90px;
-  background-color: black;
+  height: 110px;
+  background-color: #262626;
+  border-style: solid;
+  border-width: thin;
+  border-color: #FFFFFF;
   ${mobile({ height: "50px" })}
 `;
 
@@ -54,7 +57,7 @@ const Right = styled.div`
 `;
 
 const MenuItem = styled.div`
-  font-size: 18px;
+  font-size: 17px;
   cursor: pointer;
   margin-left: 25px;
   color: white;

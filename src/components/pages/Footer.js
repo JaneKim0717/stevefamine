@@ -1,4 +1,3 @@
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -8,8 +7,11 @@ import styled from "styled-components";
 import { mobile } from '../responsive'
 
 const Container = styled.div`
-  background-color: black;
+  background-color: #262626;
   display: flex;
+  border-style: solid;
+  border-width: thin;
+  border-color: #FFFFFF;
   ${mobile({ flexDirection: "column" })}
 `;
 
