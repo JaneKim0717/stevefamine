@@ -58,6 +58,7 @@ const MenuItem = styled.div`
   cursor: pointer;
   margin-left: 25px;
   color: white;
+  font-weight: 600;
   ${mobile({ fontSize: "12px", marginLeft: "10px" })}
 `;
 
@@ -94,39 +95,14 @@ const NavBar = () => {
           <Logo><NavLink to='/'><LogoImg src={require('../assets/stevefamine-white-logo.png')} alt='logo' /></NavLink></Logo>
         </Center>
         <Right>
-          <NavLink to='/' activeStyle> <MenuItem>HOME</MenuItem> </NavLink>
-          <NavLink to='/projects' activeStyle><MenuItem>PROJECTS</MenuItem></NavLink>
-          <NavLink to='/blog' activeStyle><MenuItem>BLOG</MenuItem></NavLink>
-          <NavLink to='/about' activeStyle><MenuItem>ABOUT</MenuItem></NavLink>
-          <NavLink to='/contact' activeStyle><MenuItem>CONTACT</MenuItem></NavLink>
+          <NavLink to='/' > <MenuItem>HOME</MenuItem> </NavLink>
+          <NavLink to='/projects' ><MenuItem>PROJECTS</MenuItem></NavLink>
+          <NavLink to='/blog' ><MenuItem>BLOG</MenuItem></NavLink>
+          <NavLink to='/about' ><MenuItem>ABOUT</MenuItem></NavLink>
+          <NavLink to='/contact' ><MenuItem>CONTACT</MenuItem></NavLink>
         </Right>
       </Wrapper>
     </Container>
-    // <>
-    //   <Nav>
-    //     <NavLink to='/'>
-    //       <LogoImg src={require('../assets/SFlogo_white.png')} alt='logo' />
-    //     </NavLink>
-    //     <Bars /> 
-    //     <NavMenu>
-    //       <NavLink to='/' activeStyle>
-    //         HOME
-    //       </NavLink>
-    //       <NavLink to='/projects' activeStyle>
-    //         PROJECTS
-    //       </NavLink>
-    //       <NavLink to='/blog' activeStyle>
-    //         BLOG
-    //       </NavLink>
-    //       <NavLink to='/about' activeStyle>
-    //         ABOUT
-    //       </NavLink>
-    //       <NavLink to='/contact' activeStyle>
-    //         CONTACT
-    //       </NavLink>
-    //     </NavMenu>
-    //   </Nav>
-    // </>
   )
 }
 

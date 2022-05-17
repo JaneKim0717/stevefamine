@@ -131,7 +131,7 @@ const Footer = () => {
           <RoomOutlinedIcon style={{marginRight:"10px"}}/> PHILADELPHIA, PA
         </ContactItem>
         <ContactItem>
-          <MailOutlineIcon style={{marginRight:"10px"}} /> STEVEFAMINE@GMAIL.COM
+          <MailOutlineIcon style={{marginRight:"10px"}} /> stevefaminecontact@gmail.com
         </ContactItem>
         <SocialContainer>
           <SocialIcon color="E4405F">

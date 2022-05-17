@@ -15,6 +15,7 @@ const Container = styled.div`
   border-style: solid;
   border-width: medium;
   border-color: #FFFFFF;
+  // margin-bottom: 50px;
   ${mobile({ display: "none" })}
 `;
 
@@ -59,6 +60,7 @@ const ImgContainer = styled.div`
 
 const Image = styled.img`
   height: 100%;
+  width: 100%;
 `;
 
 const InfoContainer = styled.div`
@@ -97,9 +99,9 @@ const HeroSlider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const handleClick = (direction) => {
     if (direction === "left") {
-      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
+      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 4);
     } else {
-      setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+      setSlideIndex(slideIndex < 4 ? slideIndex + 1 : 0);
     }
   };
 
@@ -110,7 +112,7 @@ const HeroSlider = () => {
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {sliderItems.map((item) => (
-          <Slide bg={item.bg} key={item.id}>
+          <Slide key={item.id}>
             <ImgContainer>
               <Image src={item.img} />
             </ImgContainer>
