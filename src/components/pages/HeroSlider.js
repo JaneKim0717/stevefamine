@@ -77,8 +77,8 @@ const Title = styled.h1`
 const Desc = styled.p`
   margin: 50px 0px;
   font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 3px;
+  font-weight: 300;
+  letter-spacing: 1px;
 `;
 
 const Button = styled.button`
