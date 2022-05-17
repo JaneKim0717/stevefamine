@@ -97,7 +97,7 @@ const NavBar = () => {
         <Right>
           <NavLink to='/' > <MenuItem>HOME</MenuItem> </NavLink>
           <NavLink to='/projects' ><MenuItem>PROJECTS</MenuItem></NavLink>
-          <NavLink to='/blog' ><MenuItem>BLOG</MenuItem></NavLink>
+          <MenuItem><a href='https://www.dakkadakka.com/dakkaforum/posts/list/769289.page'>BLOG</a></MenuItem>
           <NavLink to='/about' ><MenuItem>ABOUT</MenuItem></NavLink>
           <NavLink to='/contact' ><MenuItem>CONTACT</MenuItem></NavLink>
         </Right>
